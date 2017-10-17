@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftAnimalLearn_Example' do
+  pod 'SwiftAnimalLearn', :path => '../'
+
+  target 'SwiftAnimalLearn_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
