@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		2BA5BD91D8A4D2ABE66D49CF /* Pods_SwiftAnimalLearn_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F80C98DAF149DC1FCD2D50 /* Pods_SwiftAnimalLearn_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BE6361B71F95A734001338C3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6361B61F95A734001338C3 /* RootViewController.swift */; };
+		BE6361BD1F95D7E4001338C3 /* SLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6361BC1F95D7E3001338C3 /* SLTableViewCell.swift */; };
+		BE6361BF1F95DC43001338C3 /* FlipAnimationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6361BE1F95DC43001338C3 /* FlipAnimationDemoViewController.swift */; };
+		BE6361C11F95E0B0001338C3 /* CarouselFigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6361C01F95E0B0001338C3 /* CarouselFigureViewController.swift */; };
+		BE6361C31F95E131001338C3 /* CarouseIfigreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6361C21F95E131001338C3 /* CarouseIfigreView.swift */; };
+		BE6361CC1F95E282001338C3 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6361C51F95E282001338C3 /* dog.png */; };
+		BE6361CD1F95E282001338C3 /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE6361C61F95E282001338C3 /* dog2.jpg */; };
+		BE6361CE1F95E282001338C3 /* lr.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6361C71F95E282001338C3 /* lr.png */; };
+		BE6361CF1F95E282001338C3 /* timg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE6361C81F95E282001338C3 /* timg1.jpg */; };
+		BE6361D01F95E282001338C3 /* timg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE6361C91F95E282001338C3 /* timg2.jpg */; };
+		BE6361D11F95E282001338C3 /* timg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE6361CA1F95E282001338C3 /* timg3.jpg */; };
+		BE6361D21F95E282001338C3 /* timg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE6361CB1F95E282001338C3 /* timg4.jpg */; };
 		CA08B1A35294AD4FF4EFBF8F /* Pods_SwiftAnimalLearn_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE83A2C30FF228F0EBE1B6 /* Pods_SwiftAnimalLearn_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,24 +39,34 @@
 
 /* Begin PBXFileReference section */
 		077D366DDA0AA033EA99EEC4 /* Pods-SwiftAnimalLearn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAnimalLearn_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAnimalLearn_Tests/Pods-SwiftAnimalLearn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		55F577EEE54766449C6A2539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		55F577EEE54766449C6A2539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		59F80C98DAF149DC1FCD2D50 /* Pods_SwiftAnimalLearn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAnimalLearn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F476DF1DBF0600ED66E33AF /* Pods-SwiftAnimalLearn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAnimalLearn_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAnimalLearn_Example/Pods-SwiftAnimalLearn_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftAnimalLearn_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAnimalLearn_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftAnimalLearn_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAnimalLearn_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7CDE83A2C30FF228F0EBE1B6 /* Pods_SwiftAnimalLearn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAnimalLearn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89FC42A4B433A59A547C75E0 /* SwiftAnimalLearn.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftAnimalLearn.podspec; path = ../SwiftAnimalLearn.podspec; sourceTree = "<group>"; };
+		89FC42A4B433A59A547C75E0 /* SwiftAnimalLearn.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftAnimalLearn.podspec; path = ../SwiftAnimalLearn.podspec; sourceTree = "<group>"; };
 		98C00F9EA5D02B26BB96C617 /* Pods-SwiftAnimalLearn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAnimalLearn_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAnimalLearn_Example/Pods-SwiftAnimalLearn_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE6361B61F95A734001338C3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		BE6361BC1F95D7E3001338C3 /* SLTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTableViewCell.swift; sourceTree = "<group>"; };
+		BE6361BE1F95DC43001338C3 /* FlipAnimationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAnimationDemoViewController.swift; sourceTree = "<group>"; };
+		BE6361C01F95E0B0001338C3 /* CarouselFigureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselFigureViewController.swift; sourceTree = "<group>"; };
+		BE6361C21F95E131001338C3 /* CarouseIfigreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseIfigreView.swift; sourceTree = "<group>"; };
+		BE6361C51F95E282001338C3 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		BE6361C61F95E282001338C3 /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
+		BE6361C71F95E282001338C3 /* lr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lr.png; sourceTree = "<group>"; };
+		BE6361C81F95E282001338C3 /* timg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg1.jpg; sourceTree = "<group>"; };
+		BE6361C91F95E282001338C3 /* timg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg2.jpg; sourceTree = "<group>"; };
+		BE6361CA1F95E282001338C3 /* timg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg3.jpg; sourceTree = "<group>"; };
+		BE6361CB1F95E282001338C3 /* timg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg4.jpg; sourceTree = "<group>"; };
 		DF241B7A8DAD2453EB00137E /* Pods-SwiftAnimalLearn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAnimalLearn_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAnimalLearn_Tests/Pods-SwiftAnimalLearn_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FA27911232D547EB819DD953 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA27911232D547EB819DD953 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				BE6361B61F95A734001338C3 /* RootViewController.swift */,
+				BE6361BC1F95D7E3001338C3 /* SLTableViewCell.swift */,
+				BE6361BE1F95DC43001338C3 /* FlipAnimationDemoViewController.swift */,
+				BE6361C01F95E0B0001338C3 /* CarouselFigureViewController.swift */,
+				BE6361C21F95E131001338C3 /* CarouseIfigreView.swift */,
+				BE6361C41F95E282001338C3 /* images */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -146,6 +170,20 @@
 				7CDE83A2C30FF228F0EBE1B6 /* Pods_SwiftAnimalLearn_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE6361C41F95E282001338C3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BE6361C51F95E282001338C3 /* dog.png */,
+				BE6361C61F95E282001338C3 /* dog2.jpg */,
+				BE6361C71F95E282001338C3 /* lr.png */,
+				BE6361C81F95E282001338C3 /* timg1.jpg */,
+				BE6361C91F95E282001338C3 /* timg2.jpg */,
+				BE6361CA1F95E282001338C3 /* timg3.jpg */,
+				BE6361CB1F95E282001338C3 /* timg4.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		D7D87FAA37B9B11DBD7D554C /* Pods */ = {
@@ -248,9 +286,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				BE6361CE1F95E282001338C3 /* lr.png in Resources */,
+				BE6361CC1F95E282001338C3 /* dog.png in Resources */,
+				BE6361CF1F95E282001338C3 /* timg1.jpg in Resources */,
+				BE6361D01F95E282001338C3 /* timg2.jpg in Resources */,
+				BE6361D11F95E282001338C3 /* timg3.jpg in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				BE6361CD1F95E282001338C3 /* dog2.jpg in Resources */,
+				BE6361D21F95E282001338C3 /* timg4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +417,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				BE6361BD1F95D7E4001338C3 /* SLTableViewCell.swift in Sources */,
+				BE6361B71F95A734001338C3 /* RootViewController.swift in Sources */,
+				BE6361C11F95E0B0001338C3 /* CarouselFigureViewController.swift in Sources */,
+				BE6361C31F95E131001338C3 /* CarouseIfigreView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BE6361BF1F95DC43001338C3 /* FlipAnimationDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SwiftAnimalLearn (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SwiftAnimalLearn (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftAnimalLearn:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SwiftAnimalLearn: b8f0755145628cbdadd4f27e68dd0dcedd253617
+
+PODFILE CHECKSUM: 4c6f8063fe709680e10485d19338fe2c84ff359c
+
+COCOAPODS: 1.3.1

@@ -7,13 +7,19 @@
 //
 
 import UIKit
+//轮播图
+
+let serverImages:NSMutableArray = ["timg1.jpg", "timg2.jpg", "timg3.jpg", "timg4.jpg"]
 
 class CarouselFigureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white
+        self.automaticallyAdjustsScrollViewInsets = false;
+        let carouseView = CarouseIfigreView(frame:CGRect(x:0, y:64 + 100, width:screenWidth, height:64 * 2), images:serverImages, autoPlay:true, delay:2)
+        self.view.addSubview(carouseView)
     }
 
     override func didReceiveMemoryWarning() {

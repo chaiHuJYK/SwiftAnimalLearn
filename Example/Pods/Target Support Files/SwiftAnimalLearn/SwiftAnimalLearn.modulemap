@@ -1,0 +1,6 @@
+framework module SwiftAnimalLearn {
+  umbrella header "SwiftAnimalLearn-umbrella.h"
+
+  export *
+  module * { export * }
+}
